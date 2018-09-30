@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node"
+
+after_sucess:
+  - npm run sonar
+
+branches:
+  only:
+    - master
+    - develop
