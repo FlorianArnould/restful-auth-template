@@ -4,7 +4,7 @@ const sonarqubeScanner = require('sonarqube-scanner');
 gulp.task('default', function(callback) {
   sonarqubeScanner({
     serverUrl : "https://sonarcloud.io",
-    token : "b52032742e08d472c56f0f00d4fee871c1012c0a",
+    token : "45e125e22dd0cf6939d4467d69d474b00611a139",
     options : {
       "sonar.organization": "florianarnould-github"
     }
